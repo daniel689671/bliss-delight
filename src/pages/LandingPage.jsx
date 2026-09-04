@@ -408,175 +408,194 @@ export default function LandingPage() {
       {/* =========================================================================
           6. OUR SERVICES SECTION
          ========================================================================= */}
-      <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8 px-4">
-        {/* Service 1: Gourmet Cuisines */}
-        <div className="bg-[#260006] rounded-2xl overflow-hidden hover:border-[#F4C430] transition-all duration-300 group flex flex-col">
-          <div className="relative h-44 sm:h-48 w-full overflow-hidden">
-            <img
-              src="https://lh3.googleusercontent.com/aida-public/AB6AXuA_EkWS6Lt6c6CML6boOrLRQbdOCg6E-znZHfFGZxFIGFe6-gY4UlII82uJXtc8ht2OMd-6XSlb3a0nnilKdQqBwQU8Ecn8H4qWRJTQ0xPfiKbpKbwWINgI-rDZYFrAtOuZT1KX7JLNyK0EE6hKFzmjQjFbfEnDa1AF5WzZRfeUeMz3xjk08F1JYfkUUbKmOTnZzhePsDRXMs83Y4TLcjcZO7z0wGn1jxt80l1u5wqVwaevHArdVIi4"
-              alt="Gourmet Cuisines"
-              className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
-            />
+      <section id="services" className="py-16 bg-[#260006] text-white">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center max-w-3xl mx-auto mb-12">
+            <span className="text-[#F4C430] uppercase tracking-widest text-xs font-bold">
+              Comprehensive Capabilities
+            </span>
+            <h2 className="text-3xl sm:text-4xl font-bold text-white mt-1">
+              OUR SERVICES
+            </h2>
+            <div className="w-20 h-1 bg-[#F4C430] mx-auto mt-3 mb-3"></div>
+            <p className="text-gray-300 text-sm">
+              From corporate gala dinners to grand wedding celebrations, Bliss
+              Delight orchestrates the complete feast experience across Lagos
+              State.
+            </p>
           </div>
 
-          <div className="p-6 flex-1">
-            <h3 className="text-xl font-bold text-[#FDE68A] mb-3">
-              Gourmet Cuisines
-            </h3>
+          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8">
+            {/* Service 1: Gourmet Cuisines */}
+            <div className="bg-[#3D000B]/80 border border-[#F4C430]/30 rounded-2xl overflow-hidden hover:border-[#F4C430] transition-all duration-300 group flex flex-col">
+              <div className="relative h-44 sm:h-48 w-full overflow-hidden">
+                <img
+                  src="https://lh3.googleusercontent.com/aida-public/AB6AXuA_EkWS6Lt6c6CML6boOrLRQbdOCg6E-znZHfFGZxFIGFe6-gY4UlII82uJXtc8ht2OMd-6XSlb3a0nnilKdQqBwQU8Ecn8H4qWRJTQ0xPfiKbpKbwWINgI-rDZYFrAtOuZT1KX7JLNyK0EE6hKFzmjQjFbfEnDa1AF5WzZRfeUeMz3xjk08F1JYfkUUbKmOTnZzhePsDRXMs83Y4TLcjcZO7z0wGn1jxt80l1u5wqVwaevHArdVIi4"
+                  alt="Gourmet Cuisines"
+                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                />
+              </div>
 
-            <p className="text-gray-300 text-sm leading-relaxed mb-4">
-              Curated African and Continental banquets: from native soups and
-              pounded yam to grilled Atlantic croaker, roasted spiced lamb, and
-              herb-roasted potatoes.
-            </p>
+              <div className="p-6 flex-1">
+                <h3 className="text-xl font-bold text-[#FDE68A] mb-3">
+                  Gourmet Cuisines
+                </h3>
 
-            <ul className="text-xs text-gray-400 space-y-1.5 list-disc list-inside">
-              <li>Buffet &amp; fine table service setups</li>
-              <li>Customized dietary menus</li>
-            </ul>
+                <p className="text-gray-300 text-sm leading-relaxed mb-4">
+                  Curated African and Continental banquets: from native soups
+                  and pounded yam to grilled Atlantic croaker, roasted spiced
+                  lamb, and herb-roasted potatoes.
+                </p>
+
+                <ul className="text-xs text-gray-400 space-y-1.5 list-disc list-inside">
+                  <li>Buffet &amp; fine table service setups</li>
+                  <li>Customized dietary menus</li>
+                </ul>
+              </div>
+            </div>
+
+            {/* Service 2: Event Planning */}
+            <div className="bg-[#3D000B]/80 border border-[#F4C430]/30 rounded-2xl overflow-hidden hover:border-[#F4C430] transition-all duration-300 group flex flex-col">
+              <div className="relative h-44 sm:h-48 w-full overflow-hidden">
+                <img
+                  src="https://lh3.googleusercontent.com/aida-public/AB6AXuBOy255yqDk3CHdMUylCuyWPKNnj28fAseuHYjUomuR4c2JuCJ7o701vW0046MZxOuo478sbPb53s2NgTa2BmLnyHtocitTa7Zzy-ugtR8pwB4OjdwON2plkn1DWr70RRQadWr7_LvrmIEaNwxBF1PqDogT4EMG6jIUsdD31b1msKbJo-ANwg1GiwDg_5E6_HeUteevMu38avz8aXYezYJvA-kG3iwo17ozaxEHXE_xOYSa7ornwVmu"
+                  alt="Event Planning and Management"
+                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                />
+              </div>
+
+              <div className="p-6 flex-1">
+                <h3 className="text-xl font-bold text-[#FDE68A] mb-3">
+                  Event Planning &amp; Management
+                </h3>
+
+                <p className="text-gray-300 text-sm leading-relaxed mb-4">
+                  Full-cycle coordination ensuring stress-free execution. We
+                  handle vendor supervision, timeline tracking, and floor
+                  hospitality from inception to clean-up.
+                </p>
+
+                <ul className="text-xs text-gray-400 space-y-1.5 list-disc list-inside">
+                  <li>Birthdays, anniversaries &amp; corporate galas</li>
+                  <li>Dedicated event day coordinator</li>
+                </ul>
+              </div>
+            </div>
+
+            {/* Service 3: Small Chops and Dessert */}
+            <div className="bg-[#3D000B]/80 border border-[#F4C430]/30 rounded-2xl overflow-hidden hover:border-[#F4C430] transition-all duration-300 group flex flex-col">
+              <div className="relative h-44 sm:h-48 w-full overflow-hidden">
+                <img
+                  src="https://lh3.googleusercontent.com/aida-public/AB6AXuBQAQfNeYwV9nwoF52iApY7qFXfitZa8eX_kjEKdAWXyI1i9T9R1_qPVq2onVxdqnhEHu_rDJ6X27TqBcGzwPsQgK2RXlTTJSJ240514YDHnHU9t28NinJw_PuoSiV4V8PA4eUsqtEDOwhJqetuyH78Txdxg0XIMN1atBCiRqKkGjPoQ2EykeSffJ87kMm-0LNNtpZx_ucXCDz-pfY50wy-h4nz02v6JtDfn4v9cW-eRW8DvY5vGfK4"
+                  alt="Small Chops and Dessert"
+                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                />
+              </div>
+
+              <div className="p-6 flex-1">
+                <h3 className="text-xl font-bold text-[#FDE68A] mb-3">
+                  Small Chops and Dessert
+                </h3>
+
+                <p className="text-gray-300 text-sm leading-relaxed mb-4">
+                  Signature finger-food delights, glazed mini cupcakes, drip
+                  celebration cakes, chocolate ganache towers, gourmet popcorn
+                  carts, and fresh fruit bowls.
+                </p>
+
+                <ul className="text-xs text-gray-400 space-y-1.5 list-disc list-inside">
+                  <li>Live popcorn station hire</li>
+                  <li>Customized dessert tables</li>
+                </ul>
+              </div>
+            </div>
+
+            {/* Service 4: Beverages */}
+            <div className="bg-[#3D000B]/80 border border-[#F4C430]/30 rounded-2xl overflow-hidden hover:border-[#F4C430] transition-all duration-300 group flex flex-col">
+              <div className="relative h-44 sm:h-48 w-full overflow-hidden">
+                <img
+                  src="https://lh3.googleusercontent.com/aida-public/AB6AXuDyUxzyKeFU2COBon9JxubhUB-ZmJ5Ngf98xV5k0MHQRr-Yh22smSzY9YwK4Ca_oAFEnUuU5RIqscQVAxZqkzddIq2YgmLzZm4mP_gIKB6ENVuJH24YYj-FTZ2YQidygPpT9-2zUwbsOFYvEzxgPEPmeY8CqLUoxyc-aGkvbQB9O4DpVCVY1UWxZBeFVUZ_lzI6TpgYAQeAB3-y-OrlGgJHLZbLJoUDkuky24GCZFCw-2ZrUEKynzb0"
+                  alt="Beverages and Drinks"
+                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                />
+              </div>
+
+              <div className="p-6 flex-1">
+                <h3 className="text-xl font-bold text-[#FDE68A] mb-3">
+                  Beverages (Drinks)
+                </h3>
+
+                <p className="text-gray-300 text-sm leading-relaxed mb-4">
+                  Artisanal drink bars staffed by skilled mixologists. Fresh
+                  cold-pressed fruit cocktails, signature mocktails, chilled
+                  smoothies, and bottled artisan zobo.
+                </p>
+
+                <ul className="text-xs text-gray-400 space-y-1.5 list-disc list-inside">
+                  <li>Mobile drink service stations</li>
+                  <li>Temperature controlled storage coolers</li>
+                </ul>
+              </div>
+            </div>
+
+            {/* Service 5: Outdoor Catering */}
+            <div className="bg-[#3D000B]/80 border border-[#F4C430]/30 rounded-2xl overflow-hidden hover:border-[#F4C430] transition-all duration-300 group flex flex-col">
+              <div className="relative h-44 sm:h-48 w-full overflow-hidden">
+                <img
+                  src="https://lh3.googleusercontent.com/aida-public/AB6AXuAwLTYcBpLe2bSfGMPb0Pd0E6cYVlJU4t0X2cWP6VRcecxGD_4Zawo94V0D-j-pHmXGF-stZasm38TQn4e1e49EZGrLuOGfRNoGowYtk99gdzITUYnFO7CjfqCbQoLQavqh9KUdF5_N6Hm_gIVuQ5wARSHd8fRziNlR0EIi8Z6HzcyDH3kn9koAI6oAHV7BohUjQTK4R5gIVFocIS9VWtQxmJrs7sRsw4tX8uyxAf4E-fTtxMsH7cWi"
+                  alt="Outdoor Catering"
+                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                />
+              </div>
+
+              <div className="p-6 flex-1">
+                <h3 className="text-xl font-bold text-[#FDE68A] mb-3">
+                  Outdoor Catering
+                </h3>
+
+                <p className="text-gray-300 text-sm leading-relaxed mb-4">
+                  Heavy-duty mobile kitchen logistics and professional
+                  chafing-dish banquet setups for up to 2,000 guests at garden
+                  estates, marquee halls, or private villas.
+                </p>
+
+                <ul className="text-xs text-gray-400 space-y-1.5 list-disc list-inside">
+                  <li>Polished uniform serving staff</li>
+                  <li>On-time hot food guarantee</li>
+                </ul>
+              </div>
+            </div>
+
+            {/* Service 6: Decoration */}
+            <div className="bg-[#3D000B]/80 border border-[#F4C430]/30 rounded-2xl overflow-hidden hover:border-[#F4C430] transition-all duration-300 group flex flex-col">
+              <div className="relative h-44 sm:h-48 w-full overflow-hidden">
+                <img
+                  src="https://lh3.googleusercontent.com/aida-public/AB6AXuBT5rri_oq1UMehquD9dP2KZITHNdzFZBR6WlNrmpPv2OJM0dtuA5PXWx6bU1m3_430Ty_nIKTABceOJUQ76HnIyGnh13zDplOTiYEo97mN9aoNn3mx-W1FXWc4R30W4r2eA1VPtxEbPRywnL8aJhYfCV9dSqVHJpFgSoWWSy3XSwP7BExwXCZtgGmOAnswglpCjhE_2q7geupwcO0g71gHaWetm046L5UIDSA7czmP5zOV391CdU41"
+                  alt="Event Decoration"
+                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                />
+              </div>
+
+              <div className="p-6 flex-1">
+                <h3 className="text-xl font-bold text-[#FDE68A] mb-3">
+                  Decoration
+                </h3>
+
+                <p className="text-gray-300 text-sm leading-relaxed mb-4">
+                  Atmospheric venue transformations: floral backdrops, Chiavari
+                  seating styling, mood lighting, bespoke table centerpieces,
+                  and regal gold-accent stage setups.
+                </p>
+
+                <ul className="text-xs text-gray-400 space-y-1.5 list-disc list-inside">
+                  <li>Customized thematic color matching</li>
+                  <li>Photobooth and red carpet staging</li>
+                </ul>
+              </div>
+            </div>
           </div>
         </div>
-
-        {/* Service 2: Event Planning */}
-        <div className="bg-[#260006] rounded-2xl overflow-hidden hover:border-[#F4C430] transition-all duration-300 group flex flex-col">
-          <div className="relative h-44 sm:h-48 w-full overflow-hidden">
-            <img
-              src="https://lh3.googleusercontent.com/aida-public/AB6AXuBOy255yqDk3CHdMUylCuyWPKNnj28fAseuHYjUomuR4c2JuCJ7o701vW0046MZxOuo478sbPb53s2NgTa2BmLnyHtocitTa7Zzy-ugtR8pwB4OjdwON2plkn1DWr70RRQadWr7_LvrmIEaNwxBF1PqDogT4EMG6jIUsdD31b1msKbJo-ANwg1GiwDg_5E6_HeUteevMu38avz8aXYezYJvA-kG3iwo17ozaxEHXE_xOYSa7ornwVmu"
-              alt="Event Planning and Management"
-              className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
-            />
-          </div>
-
-          <div className="p-6 flex-1">
-            <h3 className="text-xl font-bold text-[#FDE68A] mb-3">
-              Event Planning &amp; Management
-            </h3>
-
-            <p className="text-gray-300 text-sm leading-relaxed mb-4">
-              Full-cycle coordination ensuring stress-free execution. We handle
-              vendor supervision, timeline tracking, and floor hospitality from
-              inception to clean-up.
-            </p>
-
-            <ul className="text-xs text-gray-400 space-y-1.5 list-disc list-inside">
-              <li>Birthdays, anniversaries &amp; corporate galas</li>
-              <li>Dedicated event day coordinator</li>
-            </ul>
-          </div>
-        </div>
-
-        {/* Service 3: Small Chops and Dessert */}
-        <div className="bg-[#260006] rounded-2xl overflow-hidden hover:border-[#F4C430] transition-all duration-300 group flex flex-col">
-          <div className="relative h-44 sm:h-48 w-full overflow-hidden">
-            <img
-              src="https://lh3.googleusercontent.com/aida-public/AB6AXuBQAQfNeYwV9nwoF52iApY7qFXfitZa8eX_kjEKdAWXyI1i9T9R1_qPVq2onVxdqnhEHu_rDJ6X27TqBcGzwPsQgK2RXlTTJSJ240514YDHnHU9t28NinJw_PuoSiV4V8PA4eUsqtEDOwhJqetuyH78Txdxg0XIMN1atBCiRqKkGjPoQ2EykeSffJ87kMm-0LNNtpZx_ucXCDz-pfY50wy-h4nz02v6JtDfn4v9cW-eRW8DvY5vGfK4"
-              alt="Small Chops and Dessert"
-              className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
-            />
-          </div>
-
-          <div className="p-6 flex-1">
-            <h3 className="text-xl font-bold text-[#FDE68A] mb-3">
-              Small Chops and Dessert
-            </h3>
-
-            <p className="text-gray-300 text-sm leading-relaxed mb-4">
-              Signature finger-food delights, glazed mini cupcakes, drip
-              celebration cakes, chocolate ganache towers, gourmet popcorn
-              carts, and fresh fruit bowls.
-            </p>
-
-            <ul className="text-xs text-gray-400 space-y-1.5 list-disc list-inside">
-              <li>Live popcorn station hire</li>
-              <li>Customized dessert tables</li>
-            </ul>
-          </div>
-        </div>
-
-        {/* Service 4: Beverages */}
-        <div className="bg-[#260006] border rounded-2xl overflow-hidden hover:border-[#F4C430] transition-all duration-300 group flex flex-col">
-          <div className="relative h-44 sm:h-48 w-full overflow-hidden">
-            <img
-              src="https://lh3.googleusercontent.com/aida-public/AB6AXuDyUxzyKeFU2COBon9JxubhUB-ZmJ5Ngf98xV5k0MHQRr-Yh22smSzY9YwK4Ca_oAFEnUuU5RIqscQVAxZqkzddIq2YgmLzZm4mP_gIKB6ENVuJH24YYj-FTZ2YQidygPpT9-2zUwbsOFYvEzxgPEPmeY8CqLUoxyc-aGkvbQB9O4DpVCVY1UWxZBeFVUZ_lzI6TpgYAQeAB3-y-OrlGgJHLZbLJoUDkuky24GCZFCw-2ZrUEKynzb0"
-              alt="Beverages and Drinks"
-              className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
-            />
-          </div>
-
-          <div className="p-6 flex-1">
-            <h3 className="text-xl font-bold text-[#FDE68A] mb-3">
-              Beverages (Drinks)
-            </h3>
-
-            <p className="text-gray-300 text-sm leading-relaxed mb-4">
-              Artisanal drink bars staffed by skilled mixologists. Fresh
-              cold-pressed fruit cocktails, signature mocktails, chilled
-              smoothies, and bottled artisan zobo.
-            </p>
-
-            <ul className="text-xs text-gray-400 space-y-1.5 list-disc list-inside">
-              <li>Mobile drink service stations</li>
-              <li>Temperature controlled storage coolers</li>
-            </ul>
-          </div>
-        </div>
-
-        {/* Service 5: Outdoor Catering */}
-        <div className="bg-[#260006] rounded-2xl overflow-hidden hover:border-[#F4C430] transition-all duration-300 group flex flex-col">
-          <div className="relative h-44 sm:h-48 w-full overflow-hidden">
-            <img
-              src="https://lh3.googleusercontent.com/aida-public/AB6AXuAwLTYcBpLe2bSfGMPb0Pd0E6cYVlJU4t0X2cWP6VRcecxGD_4Zawo94V0D-j-pHmXGF-stZasm38TQn4e1e49EZGrLuOGfRNoGowYtk99gdzITUYnFO7CjfqCbQoLQavqh9KUdF5_N6Hm_gIVuQ5wARSHd8fRziNlR0EIi8Z6HzcyDH3kn9koAI6oAHV7BohUjQTK4R5gIVFocIS9VWtQxmJrs7sRsw4tX8uyxAf4E-fTtxMsH7cWi"
-              alt="Outdoor Catering"
-              className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
-            />
-          </div>
-
-          <div className="p-6 flex-1">
-            <h3 className="text-xl font-bold text-[#FDE68A] mb-3">
-              Outdoor Catering
-            </h3>
-
-            <p className="text-gray-300 text-sm leading-relaxed mb-4">
-              Heavy-duty mobile kitchen logistics and professional chafing-dish
-              banquet setups for up to 2,000 guests at garden estates, marquee
-              halls, or private villas.
-            </p>
-
-            <ul className="text-xs text-gray-400 space-y-1.5 list-disc list-inside">
-              <li>Polished uniform serving staff</li>
-              <li>On-time hot food guarantee</li>
-            </ul>
-          </div>
-        </div>
-
-        {/* Service 6: Decoration */}
-        <div className="bg-[#260006] rounded-2xl overflow-hidden hover:border-[#F4C430] transition-all duration-300 group flex flex-col">
-          <div className="relative h-44 sm:h-48 w-full overflow-hidden">
-            <img
-              src="https://lh3.googleusercontent.com/aida-public/AB6AXuBT5rri_oq1UMehquD9dP2KZITHNdzFZBR6WlNrmpPv2OJM0dtuA5PXWx6bU1m3_430Ty_nIKTABceOJUQ76HnIyGnh13zDplOTiYEo97mN9aoNn3mx-W1FXWc4R30W4r2eA1VPtxEbPRywnL8aJhYfCV9dSqVHJpFgSoWWSy3XSwP7BExwXCZtgGmOAnswglpCjhE_2q7geupwcO0g71gHaWetm046L5UIDSA7czmP5zOV391CdU41"
-              alt="Event Decoration"
-              className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
-            />
-          </div>
-
-          <div className="p-6 flex-1">
-            <h3 className="text-xl font-bold text-[#FDE68A] mb-3">
-              Decoration
-            </h3>
-
-            <p className="text-gray-300 text-sm leading-relaxed mb-4">
-              Atmospheric venue transformations: floral backdrops, Chiavari
-              seating styling, mood lighting, bespoke table centerpieces, and
-              regal gold-accent stage setups.
-            </p>
-
-            <ul className="text-xs text-gray-400 space-y-1.5 list-disc list-inside">
-              <li>Customized thematic color matching</li>
-              <li>Photobooth and red carpet staging</li>
-            </ul>
-          </div>
-        </div>
-      </div>
+      </section>
 
       {/* =========================================================================
           7. MENU CATALOG HIGHLIGHTS
