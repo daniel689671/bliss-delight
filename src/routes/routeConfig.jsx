@@ -1,4 +1,5 @@
 import MainLayouts from "../layouts/MainLayouts";
+import Dmoin from "../pages/Dmoin";
 
 import LandingPage from "../pages/LandingPage";
 
@@ -9,10 +10,12 @@ const routes = [
     children: [
       {
         index: true,
+        element: <Dmoin />,
+      },
+      {
+        path: "/dmoin",
         element: <LandingPage />,
       },
-
-    
     ],
   },
 ];
